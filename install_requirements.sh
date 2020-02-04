@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Install CPLEX
+sudo apt install python3-pip
 
-sudo pip install -r requirements
-
-sudo apt install python-tk
+sudo pip3 install -r requirements
 
 echo "Installing requirements finished"
 
